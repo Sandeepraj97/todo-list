@@ -1,0 +1,38 @@
+.main-cointainer{
+    background-color: rgb(194, 255, 255);
+    height: 100vh;
+    display:  flex;
+    flex-direction:  column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.input-item{
+    height: 35px;
+    width: 375px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button-ele{
+    background-color: rgb(248, 199, 199);
+    height: 37px;
+    width: 75px;
+    border-radius: 50px;
+}
+.list-cointainer{
+    background-color: rgb(255, 244, 240);
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 45%;
+    box-shadow: 5px 8px 5px rgb(253, 223, 223);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
